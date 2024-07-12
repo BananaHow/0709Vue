@@ -12,6 +12,9 @@ export default{
         <RouterLink class="routeItem" to="/" >Home</RouterLink>
         <RouterLink class="routeItem" to="/VtextAndVmodel">VtextAndVmodel</RouterLink>
         <RouterLink class="routeItem" to="/VforAndVbind">VforAndVbind</RouterLink>
+        <RouterLink class="routeItem" to="/VonAndVifAndVshow">VonAndVifAndVshow</RouterLink>
+        <RouterLink class="routeItem" to="/Props">Props</RouterLink>
+        <RouterLink class="routeItem" to="/Emit">Emit</RouterLink>
     </div>
 </template>
 
@@ -21,6 +24,7 @@ export default{
     height: 100%;
     background: rgb(66, 100, 135);
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     .routeItem{
         margin: 0 3%;
