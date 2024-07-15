@@ -8,6 +8,9 @@ export default {
     props: [
         'fromChild'
     ],
+    emits:[
+        'childMsg'
+    ]
 }
 </script>
 

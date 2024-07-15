@@ -15,6 +15,7 @@ export default{
         <RouterLink class="routeItem" to="/VonAndVifAndVshow">VonAndVifAndVshow</RouterLink>
         <RouterLink class="routeItem" to="/Props">Props</RouterLink>
         <RouterLink class="routeItem" to="/Emit">Emit</RouterLink>
+        <RouterLink class="routeItem" to="/WatchAndComputed">WatchAndComputed</RouterLink>
     </div>
 </template>
 
@@ -27,8 +28,8 @@ export default{
     flex-wrap: wrap;
     align-items: center;
     .routeItem{
-        margin: 0 3%;
-        font-size: 36px;
+        margin: 0 1%;
+        font-size: 2dvw;
         color:white;
         text-decoration: none;
         cursor: pointer;
